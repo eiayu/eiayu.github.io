@@ -297,44 +297,5 @@
 
     </div>
 
-
-    <!-- ================= SIDEBAR JAVASCRIPT ================= -->
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-
-            const homePage = document.getElementById("homePage");
-            const sidebarToggle = document.getElementById("sidebarToggle");
-
-            if (!homePage || !sidebarToggle) {
-                console.error("Sidebar elements not found!");
-                return;
-            }
-
-            sidebarToggle.addEventListener("click", function (event) {
-
-                event.preventDefault();
-
-                const closed = homePage.classList.toggle("sidebar-closed");
-
-                sidebarToggle.innerHTML = closed ? "&gt;" : "&lt;";
-
-                sidebarToggle.setAttribute(
-                    "aria-expanded",
-                    String(!closed)
-                );
-
-                sidebarToggle.setAttribute(
-                    "aria-label",
-                    closed ? "Open menu" : "Close menu"
-                );
-
-                console.log("Sidebar toggled:", closed);
-
-            });
-
-        });
-    </script>
-
 </body>
 </html>
