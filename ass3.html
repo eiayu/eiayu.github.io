@@ -303,21 +303,6 @@
 
     </div>
 
-    <!-- Open / close menu (runs first, independent of the program) -->
-    <script>
-        (function () {
-            var homePage = document.getElementById("homePage");
-            var sidebarToggle = document.getElementById("sidebarToggle");
-
-            sidebarToggle.addEventListener("click", function () {
-                var closed = homePage.classList.toggle("sidebar-closed");
-                sidebarToggle.innerHTML = closed ? "&gt;" : "&lt;";
-                sidebarToggle.setAttribute("aria-expanded", String(!closed));
-                sidebarToggle.setAttribute("aria-label", closed ? "Open menu" : "Close menu");
-            });
-        })();
-    </script>
-
     <!-- Program -->
     <script>
         var input   = document.getElementById("nValue");
