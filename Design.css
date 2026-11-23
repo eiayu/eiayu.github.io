@@ -267,7 +267,7 @@ body::before {
   background-color: var(--bg);
   background-image:
     linear-gradient(var(--bg-overlay), var(--bg-overlay)),
-    url("bg.jpg");
+    url("Bg.jpg");
   background-repeat: no-repeat;
   background-size: auto, cover;
   background-position: 0 0, center;
