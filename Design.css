@@ -231,7 +231,7 @@ body {
 .Result-Value { margin-top: 6px; font-size: 26px; font-weight: 600; word-break: break-all; max-height: 160px; overflow-y: auto; }
 .Result-Value.empty { font-weight: 300; color: var(--text-muted); }
 /* ---------- Tables (Assignments 2 and 4) ---------- */
-.Table-Wrap { margin-top: 26px; overflow-x: auto; border: 2px solid var(--border-strong); border-radius: var(--radius); }
+.Table-Wrap { margin-top: 26px; overflow-x: auto; border: 2px solid var(--border-strong); border-radius: var(--radius); background: var(--panel-glass); }
 .Data-Table { width: 100%; border-collapse: collapse; font-size: 14px; text-align: left; }
 .Data-Table caption { padding: 14px 16px 6px; font-size: 13px; letter-spacing: 0.5px; text-transform: uppercase; text-align: left; color: var(--text-muted); }
 .Data-Table th, .Data-Table td { padding: 10px 16px; white-space: nowrap; border-top: 1px solid var(--border-strong); }
